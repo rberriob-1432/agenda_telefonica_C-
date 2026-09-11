@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using Aplicacion.Puertos.Entrada;
@@ -22,7 +21,7 @@ public sealed class BuscarContactosServicio
             conseguirTodosContactosPuerto;
     }
 
-    public List<ContactoRespuestaDto> Execute(
+    public ContactoRespuestaDto[] Execute(
         BuscarContactosComando comando)
     {
         ValidateCommand(comando);
@@ -30,7 +29,8 @@ public sealed class BuscarContactosServicio
         Contacto contacto =
             conseguirTodosContactosPuerto.GetAll();
 
-        var resultados = new List<ContactoRespuestaDto>();
+        var resultados =
+            new List<ContactoRespuestaDto>();
 
         string criterio =
             comando.Criterio
@@ -71,21 +71,25 @@ public sealed class BuscarContactosServicio
             }
         }
 
-        return resultados;
+        return resultados.ToArray();
     }
 
     private static void ValidateCommand(
         BuscarContactosComando comando)
     {
-        var context = new ValidationContext(comando);
-        var violations = new List<ValidationResult>();
+        var context =
+            new ValidationContext(comando);
 
-        bool isValid = Validator.TryValidateObject(
-            comando,
-            context,
-            violations,
-            validateAllProperties: true
-        );
+        var violations =
+            new List<ValidationResult>();
+
+        bool isValid =
+            Validator.TryValidateObject(
+                comando,
+                context,
+                violations,
+                validateAllProperties: true
+            );
 
         if (!isValid)
         {
