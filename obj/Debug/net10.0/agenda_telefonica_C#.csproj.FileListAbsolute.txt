@@ -1,0 +1,15 @@
+/home/filabb/agenda_telefonica_C#/bin/Debug/net10.0/agenda_telefonica_C#
+/home/filabb/agenda_telefonica_C#/bin/Debug/net10.0/agenda_telefonica_C#.deps.json
+/home/filabb/agenda_telefonica_C#/bin/Debug/net10.0/agenda_telefonica_C#.runtimeconfig.json
+/home/filabb/agenda_telefonica_C#/bin/Debug/net10.0/agenda_telefonica_C#.dll
+/home/filabb/agenda_telefonica_C#/bin/Debug/net10.0/agenda_telefonica_C#.pdb
+/home/filabb/agenda_telefonica_C#/obj/Debug/net10.0/agenda_telefonica_C#.GeneratedMSBuildEditorConfig.editorconfig
+/home/filabb/agenda_telefonica_C#/obj/Debug/net10.0/agenda_telefonica_C#.AssemblyInfoInputs.cache
+/home/filabb/agenda_telefonica_C#/obj/Debug/net10.0/agenda_telefonica_C#.AssemblyInfo.cs
+/home/filabb/agenda_telefonica_C#/obj/Debug/net10.0/agenda_telefonica_C#.csproj.CoreCompileInputs.cache
+/home/filabb/agenda_telefonica_C#/obj/Debug/net10.0/agenda_telefonica_C#.sourcelink.json
+/home/filabb/agenda_telefonica_C#/obj/Debug/net10.0/agenda_telefonica_C#.dll
+/home/filabb/agenda_telefonica_C#/obj/Debug/net10.0/refint/agenda_telefonica_C#.dll
+/home/filabb/agenda_telefonica_C#/obj/Debug/net10.0/agenda_telefonica_C#.pdb
+/home/filabb/agenda_telefonica_C#/obj/Debug/net10.0/agenda_telefonica_C#.genruntimeconfig.cache
+/home/filabb/agenda_telefonica_C#/obj/Debug/net10.0/ref/agenda_telefonica_C#.dll

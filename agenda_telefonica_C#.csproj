@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>agenda_telefonica_C_</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+<ItemGroup>
+    <EmbeddedResource Include="src/main/resources/application.properties">
+        <LogicalName>application.properties</LogicalName>
+    </EmbeddedResource>
+</ItemGroup>
+</Project>
