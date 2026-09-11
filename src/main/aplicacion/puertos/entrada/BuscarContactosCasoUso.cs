@@ -5,7 +5,7 @@ namespace Aplicacion.Puertos.Entrada;
 
 public interface IBuscarContactosCasoUso
 {
-    List<ContactoRespuestaDto> Execute(
+    ContactoRespuestaDto[] Execute(
         BuscarContactosComando comando
     );
 }
